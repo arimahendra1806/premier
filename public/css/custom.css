@@ -1,0 +1,53 @@
+/* your styles go here */
+table.dataTable thead .sorting_asc {
+  background: url("http://cdn.datatables.net/1.10.0/images/sort_asc.png") no-repeat center left;
+}
+table.dataTable thead .sorting_desc {
+  background: url("http://cdn.datatables.net/1.10.0/images/sort_desc.png") no-repeat center left;
+}
+table.dataTable thead .sorting {
+  background: url("http://cdn.datatables.net/1.10.0/images/sort_both.png") no-repeat center left;
+}
+.btn-search-1-1{
+  background-image: linear-gradient(90deg, rgba(246,246,247,1) 0%, rgba(118,232,255,1) 100%);
+/*        margin-top: 2.25rem;*/
+  color: black;
+  font-size: 1.25rem;
+/*        line-height: 1.75rem;*/
+  font-weight: 800;
+  border-radius: 0.75rem;
+  transition: 0.5s;
+}
+.btn-search-1-1:hover{
+  color: black;
+  --tw-shadow: inset 0 0px 18px 0 rgba(0, 0, 0, 0.7);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  transition: 0.5s;
+}
+.btn-edit-1-1{
+  background-image: linear-gradient(90deg, rgba(246,246,247,1) 0%, rgba(255,239,0,1) 100%);
+/*        margin-top: 2.25rem;*/
+  color: black;
+  font-size: 1.25rem;
+/*        line-height: 1.75rem;*/
+  font-weight: 500;
+  border-radius: 0.75rem;
+  transition: 0.5s;
+}
+.btn-edit-1-1:hover{
+  color: black;
+  --tw-shadow: inset 0 0px 18px 0 rgba(0, 0, 0, 0.7);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  transition: 0.5s;
+}
+.btn-utama{
+	color: white;
+    background-color: #DB6574;
+    border-color: #DB6574;
+}
+
+.btn-utama:hover{
+  color: white;
+  background-color: #d44658;
+  border-color: #d13c4f
+}
